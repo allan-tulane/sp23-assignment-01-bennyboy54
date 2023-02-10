@@ -11,14 +11,14 @@ In this assignment, you will learn more about asymptotic notation, parallelism, 
 
 1. (2 pts ea) **Asymptotic notation** (12 pts)
 
-  - 1a. Is $2^{n+1} \in O(2^n)$? Why or why not? 
-.  
+  - 1a. Is $2^{n+1} \in O(2^n)$? Why or why not?   
+. No, since, using the limit method, as n approaches infinity, $2^{n+1}/2^n = 2$, and 2 > 0, so $2^{n+1}$ is actually $\theta(2^n)$
 .  
 .  
 .  
 . 
   - 1b. Is $2^{2^n} \in O(2^n)$? Why or why not?     
-.  
+.  No, since, using the limit method, as n approaches infinity, $2^{2^n}/2^n = \infty$, so $2^{2^n}$ is actually $\Omega(2^n)$
 .  
 .  
 .  
