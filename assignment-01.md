@@ -24,8 +24,7 @@ In this assignment, you will learn more about asymptotic notation, parallelism, 
 .  
 .  
   - 1c. Is $n^{1.01} \in O(\mathrm{log}^2 n)$?    
-.  
-.  
+.  No, since, using the limit method, as n approaches infinity, $n^{1.01}/\mathrm{log}^2 n = \infty$, so $n^{1.01}$ is actually $\Omega(\mathrm{log}^2 n)$
 .  
 .  
 
