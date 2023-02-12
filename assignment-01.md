@@ -29,17 +29,17 @@ In this assignment, you will learn more about asymptotic notation, parallelism, 
 .  
 
   - 1d. Is $n^{1.01} \in \Omega(\mathrm{log}^2 n)$?  
-.  
+.  Yes, since, using the limit method, as n approaches infinity, $n^{1.01}/\mathrm{log}^2 n = \infty$, so $n^{1.01}$ is $\Omega(\mathrm{log}^2 n)$
 .  
 .  
 .  
   - 1e. Is $\sqrt{n} \in O((\mathrm{log} n)^3)$?  
-.  
+.  No, since, using the limit method, as n approaches infinity, $\sqrt{n}/(\mathrm{log} n)^3 = \infty$, so $\sqrt{n}$ is actually $\Omega(\mathrm{log} n)^3)$
 .  
 .  
 .  
   - 1f. Is $\sqrt{n} \in \Omega((\mathrm{log} n)^3)$?  
-.  
+.  Yes, since, using the limit method, as n approaches infinity, $\sqrt{n}/(\mathrm{log} n)^3 = \infty$, so $\sqrt{n}$ is $\Omega(\mathrm{log} n)^3)$
 
 
 2. **SPARC to Python** (12 pts)
