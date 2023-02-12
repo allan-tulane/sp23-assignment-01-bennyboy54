@@ -55,12 +55,12 @@ $$
 ~~~~~~~~~~~~ra + rb\\  
 ~~~~~~~~\texttt{end}{}.\\
 \end{array}
-$$ 
+$$
 
   - 2a. (6 pts) Translate this to Python code -- fill in the `def foo` method in `main.py`  
 
   - 2b. (6 pts) What does this function do, in your own words?  
-
+foo(x) calculates the Fibonacci seqence for x and returns the value.
 .  
 .  
 .  
