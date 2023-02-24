@@ -91,7 +91,7 @@ E.g., `longest_run([2,12,12,8,12,12,12,0,12,1], 12) == 3`
 
   - 3b. (4 pts) What is the Work and Span of this implementation?  
 
-. Work is W(n) = 7n + 3
+. Work is W(n) = 7n + 3, so O(n)
 . Span = log(n)
 .  
 .  
@@ -107,8 +107,8 @@ E.g., `longest_run([2,12,12,8,12,12,12,0,12,1], 12) == 3`
   - 3d. (4 pts) What is the Work and Span of this sequential algorithm?  
 .  
 .  
-.  
-.  
+.  W(n) = O(n)
+.  S(n) = O(log2 n)
 .  
 .  
 .  
